@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Button Demo</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f5f5f5;
+      }
+
+      button {
+        padding: 36px 72px;
+        font-size: 18px;
+        background-color: #0008e0;
+        color: white;
+        border: none;
+        cursor: pointer;
+        width: 300px;
+        height: 100px;
+      }
+
+      button.active {
+        background-color: #ff0000;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="toggleButton" onclick="toggleButtonText()">Hello World!</button>
+    <script src="script_1.js"></script>
+  </body>
+</html>
